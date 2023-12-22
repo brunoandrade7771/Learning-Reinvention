@@ -8,6 +8,9 @@
 		"workspaceestudodev-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:workspaceestudodev.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
 		},
+		"LS_KEY_VAULT_properties_typeProperties_baseUrl": {
+			"value": "https://learning-keyvault-00.vault.azure.net/"
+		},
 		"workspaceestudodev-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://datalakestorageestudodev.dfs.core.windows.net"
 		}

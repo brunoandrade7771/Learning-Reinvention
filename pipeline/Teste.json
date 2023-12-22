@@ -1,0 +1,27 @@
+{
+	"name": "Teste",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Teste",
+					"value": "testeee"
+				}
+			}
+		],
+		"variables": {
+			"Teste": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}

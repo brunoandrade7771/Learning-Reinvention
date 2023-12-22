@@ -1,0 +1,30 @@
+{
+	"name": "Teste_copy1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "gdf",
+					"value": "vfdfdhbgvb "
+				}
+			}
+		],
+		"variables": {
+			"Teste": {
+				"type": "String"
+			},
+			"gdf": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
